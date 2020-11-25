@@ -3,8 +3,20 @@
     margin-bottom: 0;
 }
 
+.p_15 {
+    padding: 15px;
+}
+
+.pr_10 {
+    padding-right: 10px;;
+}
+
 .pl_10 {
     padding-left: 10px;
+}
+
+.ptb_5 {
+    padding: 5px;
 }
 
 .ptb_60 {
@@ -13,6 +25,10 @@
 
 .b_left {
     border-left: 1px solid grey;
+}
+
+.bb_white {
+    border-bottom: 1px solid white;
 }
 
 /* HEADER */
