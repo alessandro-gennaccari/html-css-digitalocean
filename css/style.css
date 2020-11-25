@@ -1,3 +1,24 @@
+/* GENERAL */
+.mb_0{
+    margin-bottom: 0;
+}
+
+.pl_10 {
+    padding-left: 10px;
+}
+
+.ptb_60 {
+    padding: 60px 0;
+}
+
+.b_left {
+    border-left: 1px solid grey;
+}
+
+/* HEADER */
+/* nav */
+
+/* jumbo */
 .ms_bg_jumbo {
     background-image: url('../img/bg-home-1.jpg');
     background-size: cover;
@@ -5,6 +26,11 @@
     background-position: center bottom;
 }
 
+/* MAIN */
+/* 1 Section */
+.bg_grey {
+    background-color: #f3f5f9;
+}
 
 /* DEBUG */
 .debug .row {
@@ -17,6 +43,10 @@
     height: 100%;
     background-color: yellow;
     border: 1px solid red;
+}
+
+.height_0 {
+    height: 0;
 }
 
 .height_300 {
