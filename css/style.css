@@ -32,6 +32,19 @@
     background-color: #f3f5f9;
 }
 
+/* 5 Section */
+.ms_bg_world {
+    background: #031b4e url(https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 7 Section */
+.bg_blue {
+    background-color: #002da7;
+}
+
 /* DEBUG */
 .debug .row {
     height: 100px;
