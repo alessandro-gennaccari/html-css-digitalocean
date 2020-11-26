@@ -15,19 +15,64 @@
     <header>
 
         <!-- Nav -->
-        <nav class="debug">
+        <nav class="navbar-fixed-top">
             
             <div class="container">
     
                 <div class="row">
     
-                    <div class="col-xs-6 col-lg-2"></div>
+                    <div class="col-xs-4 col-lg-2">
+                        <a href="#">
+                            <img src="img/logo-digitalocean.webp" alt="Logo DigitalOcean">
+                        </a>
+                    </div>
 
-                    <div class="hidden-xs hidden-sm hidden-md col-lg-5"></div>
+                    <div class="hidden-xs hidden-sm hidden-md col-lg-5">
+                        <ul class="list-unstyled list-inline">
+                            <li>
+                                <a href="#">
+                                    Product
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Customers</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Community
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <div class="hidden-xs hidden-sm hidden-md col-lg-5"></div>
+                    <div class="hidden-xs hidden-sm hidden-md col-lg-5">
+                        <ul class="list-unstyled list-inline">
+                            <li>
+                                <a href="#">Docs</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Support
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ms_btn">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
                    
-                    <div class="col-xs-6 hidden-lg"></div>
+                    <div class="col-xs-8 hidden-lg text-right color_lightblue ms_hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
     
                 </div>
     
@@ -36,7 +81,7 @@
         </nav>
 
         <!-- jumbotron -->
-        <div class="jumbotron ms_bg_jumbo mb_0">
+        <div class="jumbotron ms_bg_jumbo mb_0 color_white mt_80">
 
             <div class="container">
 
@@ -44,10 +89,38 @@
 
                     <div class="col-xs-12 col-sm-7">
                         <h1>The simplest cloud platform for developers &amp; teams</h1>
-                        <p>Deploy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+                        <p class="color_lightgray">Deploy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
                     </div>
 
-                    <div class="col-xs-12 col-sm-5"></div>
+                    <div class="col-xs-12 col-sm-5">
+                        <div class="bg_white img-rounded p_15 text-center">
+
+                            <h2>Deploy your app in seconds.</h2>
+                            <h2 class="color_lightblue">Get started now.</h2>
+
+                            <form class="pb_5">
+                                <div class="form-group">
+                                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>                   
+                                <button type="submit" class="btn btn-default ms_btn_jumbo">Create your account</button>
+                            </form>
+
+                            <a class="btn btn-default" href="#" role="button">
+                                <img src="https://www.shareicon.net/data/256x256/2016/11/22/854956_search_512x512.png" alt="Logo Google">
+                                Sign up whit google
+                            </a>
+
+                            <div class="color_blue pt_20">
+                                <small>
+                                    By signing up you agree to the
+                                    <a href="#">Terms of Service</a>.
+                                </small>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 
@@ -69,26 +142,46 @@
 
                 <div class="row">
 
-                    <div class="col-xs-12 text-uppercase">Innovative businesses trust digitalocean</div>
+                    <div class="col-xs-12 text-uppercase">
+                        <h5 class="color_grey">Innovative businesses trust digitalocean</h5>
+                    </div>
 
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 pt_20">
 
                         <div class="row">
 
-                            <div class="col-xs-6 col-sm-2">1</div>
-                            <div class="col-xs-6 col-sm-2">2</div>
-                            <div class="col-xs-6 col-sm-2">3</div>
-                            <div class="col-xs-6 col-sm-2">4</div>
-                            <div class="col-xs-6 col-sm-2">5</div>
-                            <div class="col-xs-6 col-sm-2">6</div>
+                            <div class="col-xs-6 col-sm-2">
+                                <img class="ms_pointer" src="img/logo_docker.png" alt="Logo Docker">
+                            </div>
+
+                            <div class="col-xs-6 col-sm-2">
+                                <img class="ms_pointer" src="img/logo_gitlab.png" alt="Logo GitLab">
+                            </div>
+
+                            <div class="col-xs-6 col-sm-2">
+                                <img class="ms_pointer" src="img/logo_slack.png" alt="Logo Slack">
+                            </div>
+
+                            <div class="col-xs-6 col-sm-2">
+                                <img class="ms_pointer" src="img/logo_hashicorp.png" alt="Logo Hashicorp">
+                            </div>
+
+                            <div class="col-xs-6 col-sm-2">
+                                <img class="ms_pointer" src="img/logo_docker.png" alt="">
+                            </div>
+
+                            <div class="col-xs-6 col-sm-2">
+                                <img class="ms_pointer" src="img/logo_gitlab.png" alt="">
+                            </div>
 
                         </div>
 
                     </div>
 
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 pt_20 ms_text-bolder">
                         <a href="#">
                             View customers stories
+                            <i class="fas fa-angle-right pl_5"></i>
                         </a>
                     </div>
 
@@ -105,9 +198,9 @@
 
                     <div class="row">
 
-                        <div class="col-xs-12 text-center">
+                        <div class="col-xs-12 text-center pb_60">
                             <h2>Deploy and scale seamlessly</h2>
-                            <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                            <p class="color_darkgrey ms_pgreat">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
                         </div>
 
                         <div class="col-xs-12">
@@ -140,16 +233,18 @@
 
                                 <div class="col-xs-12 col-sm-7">
 
-                                    <div class="row">
+                                    <div class="row pb_30">
 
                                         <div class="col-xs-12 col-sm-6">
-                                                <h4>Cluster deployments</h4>
-                                                <p class="">Provision multiple Droplets (virtual machines) in second with our control panel, CLI, or directly against our API.</p>
+                                            <img class="pb_5" src="img/kublogoicon.svg" alt="kublogoicon">
+                                            <h4>Cluster deployments</h4>
+                                            <p class="color_darkgrey">Provision multiple Droplets (virtual machines) in second with our control panel, CLI, or directly against our API.</p>
                                         </div>
         
                                         <div class="col-xs-12 col-sm-6">
+                                            <img class="pb_5" src="img/dropletinboxicon.svg" alt="dropletinboxicon">
                                             <h4>Optimized compute types</h4>
-                                            <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+                                            <p class="color_darkgrey">Get the compute resources you need with Standard or Optimized Droplets.</p>
                                         </div>
 
                                     </div>
@@ -157,13 +252,15 @@
                                     <div class="row">
 
                                         <div class="col-xs-12 col-sm-6">
+                                            <img class="pb_5" src="img/featured-AP-icon.svg" alt="featured-AP">
                                             <h4>One-click apps</h4>
-                                            <p>Skip the install and configuration process ith pre-built open source images supporting Rail, Cassandra, Docker, and more.</p>
+                                            <p class="color_darkgrey">Skip the install and configuration process ith pre-built open source images supporting Rail, Cassandra, Docker, and more.</p>
                                         </div>
                 
                                         <div class="col-xs-12 col-sm-6">
+                                            <img class="pb_5" src="img/stacksplusicon.svg" alt="stacksplusicon">
                                             <h4>Global availability</h4>
-                                            <p>Deploy to of our data center regions around the world.</p>
+                                            <p class="color_darkgrey">Deploy to of our data center regions around the world.</p>
                                         </div>
 
                                     </div>
@@ -183,35 +280,44 @@
         </section>
 
         <!-- Section3: Designed -->
-        <section id="designed" class="bg_grey ptb_60 text-center debug">
+        <section id="designed" class="bg_grey ptb_60 text-center">
 
             <div class="container">
 
                 <div class="row">
 
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 pb_60">
                         <h2>Designed for developers</h2>
-                        <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+                        <p class="ms_pgreat color_darkgrey pt_20">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
                     </div>
 
                     <div class="col-xs-12">
 
                         <div class="row">
 
-                            <div class="col-sm-1 col-sm-offset-1 hidden-xs">Freccia</div>
+                            <div class="col-sm-1 col-sm-offset-1 hidden-xs ms_arrow_big color_darkgrey">
+                                <i class="fas fa-chevron-left"></i>
+                            </div>
 
-                            <div class="col-xs-offset-2 col-xs-8 col-sm-8 col-sm-offset-0"></div>
+                            <div class="col-xs-offset-2 col-xs-8 col-sm-8 col-sm-offset-0">
+                                <img src="img/screenshot-create-droplet-12336b41.jpg" alt="Create Droplet">
+                            </div>
 
-                            <div class="col-sm-1 hidden-xs">Freccia</div>
+                            <div class="col-sm-1 hidden-xs ms_arrow_big color_blue">
+                                <i class="fas fa-chevron-right ms_pointer"></i>
+                            </div>
 
                         </div>
                         
                     </div>
 
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 pt_20 color_lightblue">
                         <h4>Create Compute servers in 55 seconds or less.</h4>
                         <div>
-                            icone icone icone
+                            <i class="fas fa-circle ms_pointer"></i>
+                            <i class="far fa-circle ms_pointer"></i>
+                            <i class="far fa-circle ms_pointer"></i>
+                            <i class="far fa-circle ms_pointer"></i>
                         </div>
                     </div>
 
@@ -222,26 +328,44 @@
         </section>
 
         <!-- Section4: Features -->
-        <section id="features" class="ptb_60 debug">
+        <section id="features" class="ptb_60">
 
             <div class="container">
 
                 <div class="row">
 
                     <div class="col-xs-12">
-                        <h2>The features your business needs</h2>
+                        <h2 class="text-center">The features your business needs</h2>
                     </div>
 
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-4 pt_20">
+                        <img class="pb_5" src="img/task-list-multiple.svg" alt="task">
                         <h4>Predictable pricing</h4>
+                        <p class="color_darkgrey">Leave complex pricing structures behind. Alweys know what you'll pay per month with a flat, industy-leading pricing structure.</p>
+                        <a class="ms_text-bolder"  href="#">
+                            Pricing
+                            <i class="fas fa-angle-right pl_5"></i>
+                        </a>
                     </div>
 
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-4 pt_20">
+                        <img class="pb_5" src="img/headphones-customer-support-human.svg" alt="Support">
                         <h4>World-class service</h4>
+                        <p class="color_darkgrey">Free round.the.clock technical support for all customers. You'll fell the love.</p>
+                        <a class="ms_text-bolder" href="#">
+                            Support
+                            <i class="fas fa-angle-right pl_5"></i>
+                        </a>
                     </div>
 
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-4 pt_20">
+                        <img class="pb_5" src="img/check-shield.svg" alt="check shield">
                         <h4>Reliable platform</h4>
+                        <p class="color_darkgrey">More than 100,000 developer team worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+                        <a class="ms_text-bolder"  href="#">
+                            Security
+                            <i class="fas fa-angle-right pl_5"></i>
+                        </a>
                     </div>
 
                 </div>
@@ -258,34 +382,35 @@
                 <div class="row">
 
                     <div class="col-xs-12 text-center">
-                        <h2>Service your cistomers around the world from 12 regions.</h2>
+                        <h2 class="color_white">Service your cistomers around the world from 12 regions.</h2>
                     </div>
 
                 </div>
 
                 <div class="row p_15">
 
-                    <div class="col-xs-12 col-lg-6">
+                    <div class="col-xs-12 col-lg-6 pb_30">
 
-                        <div class="row pr_10">
+                        <div class="row prl_10">
 
                             <div class="col-xs-12 bb_white">
 
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -298,18 +423,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -321,18 +447,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -344,18 +471,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -367,18 +495,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
                                     
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -390,18 +519,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -413,27 +543,28 @@
                     </div>
 
 
-                    <div class="col-xs-12 col-lg-6">
+                    <div class="col-xs-12 col-lg-6 pb_30">
 
-                        <div class="row pl_10">
+                        <div class="row prl_10">
 
                             <div class="col-xs-12 bb_white">
 
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -446,18 +577,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -469,18 +601,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -492,18 +625,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -515,18 +649,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
@@ -538,18 +673,19 @@
                                 <div class="row ptb_5">
 
                                     <div class="col-xs-2">
-                                        <span class="text-uppercase">Ams2</span>
+                                        <span class="text-uppercase color_white">Ams2</span>
                                     </div>
 
                                     <div class="col-xs-7">
-                                        <p>
+                                        <p class="color_lightgray">
                                             Amsterdam, Netherlands
                                         </p>
                                     </div>
 
                                     <div class="col-xs-3 text-right">
-                                        <a href="#">
+                                        <a class="color_skyblue" href="#">
                                             Test speed
+                                            <i class="fas fa-angle-right pl_5"></i>
                                         </a>
                                     </div>
 
