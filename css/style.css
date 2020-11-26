@@ -56,6 +56,10 @@ h5{
     padding: 5px;
 }
 
+.ptb_30 {
+    padding: 30px 0;
+}
+
 .ptb_60 {
     padding: 60px 0;
 }
@@ -202,6 +206,16 @@ nav img {
     text-decoration: underline;
 }
 
+.jumbotron a.icon_google::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url('https://www.shareicon.net/data/256x256/2016/11/22/854956_search_512x512.png');
+    background-size: cover;
+}
+
 /* MAIN */
 /* 1 Section */
 #customers .row img {
@@ -247,14 +261,40 @@ nav img {
     background-size: cover;
 }
 
+/* 6 Section */
+#teams .row img {
+    width: 50%;
+    text-align: center;
+}
+
 /* 7 Section */
 .bg_blue {
     background-color: #002da7;
 }
 
+#teams .row .row .ms_arrow_big i.space{
+    padding: 240% 0;
+}
+
 /* FOOTER */
 footer {
     background-color: #031c4e;
+}
+
+footer .row a {
+    color: #6f7b97;   
+}
+
+footer .row ul.social li {
+    padding-right: 10px;
+}
+
+footer .row ul.social li i {
+    font-size: 20px;
+}
+
+footer .row ul.ms_link li {
+    padding-bottom: 10px;
 }
 
 
@@ -276,6 +316,12 @@ footer {
     height: 100%;
     background-color: yellow;
     border: 1px solid red;
+}
+
+.debug .row .row .row [class*="col-"] {
+    height: 100%;
+    background-color: rgb(0, 124, 52);
+    border: 1px solid rgb(255, 0, 179);
 }
 
 .height_0 {
